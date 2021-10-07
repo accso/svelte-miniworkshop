@@ -2,7 +2,7 @@
   import { ListGroup, ListGroupItem, Input, Button } from 'sveltestrap';
   import type { ITodo } from './model';
 
-  const todos: ITodo[] = [];
+  let todos: ITodo[] = [];
 
   // TODO: todo creation
 </script>
