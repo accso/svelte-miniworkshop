@@ -56,12 +56,10 @@
       {todo.text}
     </Label>
     <ButtonGroup>
-      <Button on:click={edit} aria-label="Edit">
+      <Button on:click={edit}>
         <Icon name="pencil" />
       </Button>
-      <Button on:click={remove} aria-label="Remove"
-        ><Icon name="trash" /></Button
-      >
+      <Button on:click={remove}><Icon name="trash" /></Button>
     </ButtonGroup>
   {/if}
 </div>

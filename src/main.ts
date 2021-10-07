@@ -5,6 +5,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import App from './task-1/App.svelte';
 // import App from './task-2/App.svelte';
 // import App from './task-3/App.svelte';
+// import App from './task-4/App.svelte';
+// import App from './task-5/App.svelte';
 // import App from './final/App.svelte';
 
 const app = new App({
